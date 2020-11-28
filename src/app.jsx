@@ -18,9 +18,9 @@ function App() {
   }, []);
 
   return (
-    <h1>
+    <>
       <VideoList videos={videos}/>
-    </h1>
+    </>
   )
 }
 
